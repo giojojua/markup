@@ -1,0 +1,221 @@
+/*DEFAULT STYLES*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+.block-padding {
+    padding: 100px 0 50px 0;
+}
+
+.section-title {
+    color: #000;
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* NAVBAR */
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 1px 5px 0 #cccfd9;
+    background-color: #fff;
+    background-image: url("../img/nav-bg.svg");
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar-brand {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+/*INTRO*/
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000080;
+}
+
+.intro img {
+    width: 100%;
+    z-index: -1;
+}
+
+.intro-wrapper {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    text-align: center;
+}
+
+.intro-wrapper h1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.intro .membership-btn {
+    width: fit-content;
+    display: block;
+    margin: 25px auto 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c4161c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*SERVICES*/
+
+.services .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box {
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px #56565659;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    background-image: url("../img/trainer.jpg");
+}
+
+.box2 {
+    background-image: url("../img/diet.jpeg");
+}
+
+.box3 {
+    background-image: url("../img/pool.jpg");
+}
+
+.box:hover .box-wrapper {
+    background-color: #000000cc;
+}
+
+.box:hover .box-wrapper .services-btn {
+    display: block;
+}
+
+.box:hover .box-wrapper h2 {
+    display: none;
+}
+
+.box-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    background-color: #00000080;
+}
+
+.box-wrapper h2 {
+    text-transform: uppercase;
+}
+
+.box-wrapper .services-btn {
+    width: fit-content;
+    display: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #c4161c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*FACTS*/
+
+.facts img {
+    max-width: 800px;
+    margin: auto;
+    display: block;
+}
+
+.facts ol {
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+
+.facts ol li {
+    font-size: 22px;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    color: #fff;
+    background-color: #ad121b;
+    padding: 31px 15px;
+    text-align: center;
+    font-size: 16px;
+}
