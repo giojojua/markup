@@ -28,16 +28,108 @@
             </ul>
         </nav>
     </header>
-    <section class="intro">
-        <div class="intro-wrapper">
-            <h1>Enjoy us, <br> Work harder with our team</h1>
-            <a class="membership-btn" href="membership.html">Get membership</a>
-        </div>
-        <img src="./img/intro.jpg" alt="">
-    </section>
-    <section class="services block-padding">
+    <section class="membership-form">
+        <h2 class="section-title">Gym Membership Form</h2>
         <div class="container">
-
+            <div class="row">
+                <img src="./img/form-image.jpeg" alt="">
+                <form action="" id="membership_form">
+                    <p>Name</p>
+                    <label for="first_name">
+                        <input type="text" id="first_name" placeholder="First">
+                    </label>
+                    <label for="last_name">
+                        <input type="text" id="last_name" placeholder="Last">
+                    </label>
+                    <div class="radio-group">
+                        <p>Gender</p>
+                        <div>
+                            <label for="male">
+                                <input type="radio" id="male" name="gender" value="Male">
+                                Male
+                            </label>
+                        </div>
+                        <div>
+                            <label for="female">
+                                <input type="radio" id="female" name="gender" value="Female">
+                                Female
+                            </label>
+                        </div>
+                    </div>
+                    <p>Physical information</p>
+                    <label for="current_weight">
+                        <input type="number" id="current_weight" placeholder="Current Weight">
+                    </label>
+                    <label for="desired_weight">
+                        <input type="number" id="desired_weight" placeholder="Desired Weight">
+                    </label>
+                    <label for="height">
+                        <input type="number" id="height" placeholder="Height">
+                    </label>
+                    <p>Personal information</p>
+                    <label for="street_adress">
+                        <input type="text" id="street_adress" placeholder="Street adress">
+                    </label>
+                    <label for="city">
+                        <input type="text" id="city" placeholder="City">
+                    </label>
+                    <label for="country">
+                        <select id="country">
+                            <option value="">Select Country</option>
+                            <option value="">England</option>
+                            <option value="">Georgia</option>
+                            <option value="">USA</option>
+                        </select>
+                    </label>
+                    <label for="email">
+                        <input type="email" id="email" placeholder="Email">
+                    </label>
+                    <label for="phone_number">
+                        <input type="number" id="phone_number" placeholder="Phone Number">
+                    </label>
+                    <div class="radio-group">
+                        <p>Have you been Gym before?</p>
+                        <div>
+                            <label for="gym_yes">
+                                <input type="radio" id="gym_yes" name="gender">
+                                Yes
+                            </label>
+                        </div>
+                        <label for="gym_no">
+                            <input type="radio" id="gym_no" name="gender">
+                            No
+                        </label>
+                    </div>
+                    <div class="radio-group">
+                        <p>Membership Type</p>
+                        <div>
+                            <label for="regular">
+                                <input type="radio" id="regular" name="gender">
+                                Regular
+                            </label>
+                        </div>
+                        <div>
+                            <label for="pro">
+                                <input type="radio" id="pro" name="gender">
+                                Pro
+                            </label>
+                        </div>
+                        <div>
+                            <label for="vip">
+                                <input type="radio" id="vip" name="gender">
+                                VIP
+                            </label>
+                        </div>
+                    </div>
+                    <label for="comment">
+                        Add comment
+                        <textarea form="membership_form" name="" id="comment" cols="30" rows="5" placeholder="Enter Text Here"></textarea>
+                    </label>
+                    <label for="submit_form">
+                        <input type="submit" id="submit_form" value="Apply">
+                    </label>
+                </form>
+            </div>
         </div>
     </section>
     <footer>

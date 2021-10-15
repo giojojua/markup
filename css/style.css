@@ -30,6 +30,16 @@
     margin-bottom: 20px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
 /* NAVBAR */
 
 header {
@@ -207,6 +217,97 @@ nav ul li a {
 
 .facts ol li {
     font-size: 22px;
+}
+
+/*MEMBERSHIP FORM*/
+
+.membership-form {
+    padding: 80px 0;
+}
+
+.membership-form img {
+    max-width: 600px;
+    margin: 0 auto 25px auto;
+    display: block;
+}
+
+.membership-form form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.membership-form form p {
+    margin-bottom: 8px;
+}
+
+.membership-form form label {
+    display: block;
+}
+
+.membership-form form label input {
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border: 1px solid #adadadad;
+    border-radius: 5px;
+    outline: none;
+}
+
+.membership-form form .radio-group {
+    height: 90px;
+    padding: 15px 5px;
+}
+
+.membership-form form .radio-group div {
+    float: left;
+    padding-right: 25px;
+}
+
+.membership-form form .radio-group label {
+    display: flex;
+}
+
+.membership-form form .radio-group label input {
+    width: auto;
+    margin: 6px 10px 0 0;
+}
+
+.membership-form form label textarea {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    resize: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    border: 1px solid #adadadad;
+    border-radius: 5px;
+    outline: none;
+}
+
+.membership-form form label select {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 5px;
+    background-color: #fff;
+    border: 1px solid #adadadad;
+    border-radius: 5px;
+    outline: none;
+}
+
+.membership-form form #submit_form {
+    width: 200px;
+    color: #fff;
+    background-color: #c4161c;
+    font-weight: 600;
+    margin: 25px auto auto auto;
 }
 
 /*FOOTER*/
