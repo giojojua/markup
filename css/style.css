@@ -219,6 +219,12 @@ nav ul li a {
     font-size: 22px;
 }
 
+/*MAP*/
+
+.map {
+    height: 400px;
+}
+
 /*MEMBERSHIP FORM*/
 
 .membership-form {
@@ -316,7 +322,7 @@ footer {
     width: 100%;
     color: #fff;
     background-color: #ad121b;
-    padding: 31px 15px;
+    padding: 25px 15px;
     text-align: center;
     font-size: 16px;
 }
