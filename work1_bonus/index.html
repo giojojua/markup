@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Work 2">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="brand">
+            <img src="./img/brand.png" alt="">
+        </div>
+    </header>
+    <section class="content">
+        <div class="row">
+            <div class="column1">
+                <div class="intro-text">
+                    <img src="./img/double-colons.png" alt="">
+                    <p>I always observe the people who pass by when I ride an escalator. I'll never see most of them
+                        again,
+                        so I imagine a lot of things about their lives... about the day ahead of them.</p>
+                    <p class="author">Hideo Kojima</p>
+                </div>
+                <div class="intro-img">
+                    <img src="./img/joystick.png" alt="">
+                </div>
+            </div>
+            <div class="column2">
+                <div class="social">
+                    <h1>Join the game!</h1>
+                    <p>Go inside the best gamers social network!</p>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="">
+                                <img src="./img/google.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/twitter.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/linkedin.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./img/github.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="break">
+                    <div class="hr"></div>
+                    <span>Or</span>
+                    <div class="hr"></div>
+                </div>
+                <div class="login">
+                    <form action="" class="login-form">
+                        <label for="email">
+                            Your email
+                            <input type="email" id="email" placeholder="Write your email" value=""
+                                   style="margin-bottom: 30px;">
+                        </label>
+                        <label for="password">
+                            Choose a password
+                            <input type="password" id="password" placeholder="*********" onkeyup="isGood(this.value)">
+                            <img id="eye" onclick="passwordShow()" src="./img/eye.png" alt="">
+                        </label>
+                        <span class="help-block" id="password-text"></span>
+                        <div class="terms">
+                            <div>
+                                <label for="terms">
+                                    <input type="checkbox" id="terms">
+                                    I agree to <a href="">terms & conditions</a>
+                                </label>
+                            </div>
+                            <div>
+                                <label for="latest_news">
+                                    <input type="checkbox" id="latest_news">
+                                    I’d like being informed about latest news and tips
+                                </label>
+                            </div>
+                        </div>
+                        <input type="submit" class="form-submit" value="Sign up for free">
+                    </form>
+                    <p style="text-align: center; color: #696F79; font-weight: 500">Do you already have an account? <a
+                            href="" style="color: #1565D8">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
